@@ -8,11 +8,10 @@ module.exports = {
         'dark': '#222222',
         'light-dark': '#3B3B3B',
         'dark-gray': '#8F8F8F',
+        'normal-gray':'#9F9F9F',
         'middle-gray': '#787878',
         'light-gray': '#EDF1FC',
-        'mid-orange': '#FF9737',
-        
-        
+        'mid-orange': '#FF9737',  
       },
       leading: {
         'lg': '72.8px',
@@ -22,10 +21,13 @@ module.exports = {
         '98':'28rem',
         '99': '30rem',
         '100':'32rem',
-      '102':'38rem',
+        '102':'38rem',
       },
-      top:{
-        '':'',
+      width:{
+        '98':'42rem',
+      },
+      borderRadius:{
+        '4xl':'2.5rem'
       },
     },
     
