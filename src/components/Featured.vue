@@ -1,13 +1,13 @@
 <template>
-  <div class="mx-auto max-w-3xl mt-10 mb-10">
+  <div class="mx-auto max-w-4xl mt-10 mb-10">
     <div>
-      <p class="text-middle-gray text-left">Features</p>
+      <p class="text-middle-gray text-left text-sm">Features</p>
     </div>
     <div>
-      <h1 class="font-semibold text-dark text-2xl">Featured</h1>
+      <h1 class="font-semibold text-dark text-2xl ">Featured</h1>
     </div>
     <div class="flex justify-between items-center mt-4 ">
-      <div class="text-xs text-middle-gray">
+      <div class="text-sm text-middle-gray">
         <p>
           These are our furniture products that are highly favored by our
           <span>
@@ -15,7 +15,7 @@
           </span>
         </p>
       </div>
-      <div class="text-xs text-middle-gray">see more</div>
+      <div class="text-md text-middle-gray">see more</div>
     </div>
     <div class="flex items-center justify-between space-x-10 mt-6">
       <div class="w-1/2 h-auto">

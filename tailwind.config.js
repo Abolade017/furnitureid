@@ -21,13 +21,16 @@ module.exports = {
         '98':'28rem',
         '99': '30rem',
         '100':'32rem',
-        '102':'38rem',
+        '102':'37rem',
       },
       width:{
         '98':'42rem',
       },
       borderRadius:{
         '4xl':'2.5rem'
+      },
+      inset:{
+        '98':'26rem'
       },
     },
     
