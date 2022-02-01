@@ -1,6 +1,6 @@
 <template>
   <div class="mx-auto max-w-4xl mt-10">
-    <div class="flex items-center justify-between space-x-10">
+    <div class="flex items-center justify-between space-x-20">
       <!-- left column -->
       <div class="w-1/2  h-auto">
         <div>
@@ -13,6 +13,9 @@
               <h1>say?</h1>
             </span>
           </h1>
+        </div>
+        <div class="flex space-x-10 justify-end items-center">
+           <img src="../images/Quote-icon.png" alt="quotation-mark" class="h-6">
         </div>
         <div class="mt-6">
           <p class="text-middle-gray text-sm">
@@ -36,6 +39,7 @@
             </span>
           </p>
         </div>
+       
         <div class="mt-4">
           <div class="flex items-center justify-between">
             <!--lazio sir coulumn  -->

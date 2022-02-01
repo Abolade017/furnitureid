@@ -1,9 +1,9 @@
 <template>
   <div class="mt-20">
-    <div class="bg-primary w-full h-auto">
+    <div class="bg-primary w-full h-auto footerbox">
       <div class="mx-auto max-w-4xl">
         <div class="flex items-start space-x-64 h-auto">
-          <div class="pt-20">
+          <div class="pt-24">
             <div>
               <p class="text-3xl text-white text-left">
                 Furnitureid
@@ -27,7 +27,7 @@
           <div class="pb-14">
             <div class="flex items-center space-x-24">
               <div class v-for="i in headings" :key="i.id">
-                <h1 class="text-white pt-20 text-lg" :class="i.class">{{i.title}}</h1>
+                <h1 class="text-white pt-24 text-lg" :class="i.class">{{i.title}}</h1>
               </div>
             </div>
             <div class="flex space-x-20">
@@ -132,3 +132,8 @@ export default {
   }
 };
 </script>
+<style scoped>
+.footerbox{
+clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 30%);
+}
+</style>
