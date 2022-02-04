@@ -11,18 +11,30 @@
           <div class="flex item-center justify-between absolute top-0 left-64 pt-10 pb-10 ">
             <div class="flex space-x-14 items-center">
               <router-link class="text-sm" to="/">Home</router-link>
-              <router-link class="text-sm" to="/feature">Feature</router-link>
-              <router-link class="text-sm" to="/contact">Contact</router-link>
-              <router-link to="/about">About</router-link>
+              <router-link class="text-sm" :to="{name:'feature'}">Feature</router-link>
+              <router-link class="text-sm" :to="{name:'contact'}">Contact</router-link>
+              <router-link :to="{name:'about'}">About</router-link>
             </div>
           </div>
         </div>
       </div>
       <div>
         <div class="flex items-center space-x-9 absolute top-0 right-32 py-10">
-          <router-link to="/login" class="text-sm">Login</router-link>
-          <router-link to="/signup" class="bg-primary text-white text-sm text-center rounded-tl-full rounded-br-full h-6 w-20">signup</router-link>
+          <router-link :to="{name:'login'}" class="text-sm">Login</router-link>
+          <router-link :to="{name:'signup'}"  class="bg-primary text-white text-sm text-center rounded-tl-full rounded-br-full h-6 w-20">signup</router-link>
         </div>
       </div>
     </div>
 </template>
+<script>
+export default {
+  data(){
+    return{
+
+    }
+  },
+  methods:{
+   
+  },
+}
+</script>
