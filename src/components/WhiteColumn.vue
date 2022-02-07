@@ -1,6 +1,6 @@
 <template>
   <div class>
-    <div class="absolute top-28 left-0">
+    <div class="absolute top-28 left-0 pointer-events-none">
       <div class>
         <img src="../images/zigzag.svg" alt="zig-zag-svg" class="w-full h-full" />
       </div>
